@@ -1,8 +1,10 @@
-# Question 1 
-# part 1
+# I set the background here 
 using Statistics 
 using Plots
 using LinearAlgebra
+
+# Question 1 
+# part 1
 x_vals = rand(3)
 y_vals = rand(3)
 sum = 0
@@ -104,3 +106,4 @@ y_vals = f_ex5.(x_grid)
 y = g_ex5.(x_grid)
 plot(x_grid, y_vals, label = "true")
 plot!(x_grid, y, label = "approximation")
+
